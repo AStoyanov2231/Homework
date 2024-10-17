@@ -7,6 +7,9 @@ using namespace std;
 
 int main()
 {
+
+ // 1 Задача
+
 	string email = "";
 
 	cin >> email;
@@ -22,6 +25,8 @@ int main()
 	cout << nationality;
 
 	////////////////////////////////////////////
+
+ // 2. Задача
 
 	string URL = "";
 
