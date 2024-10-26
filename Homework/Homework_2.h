@@ -22,8 +22,7 @@ public:
             string word = inputText.substr(start, end - start);
 
             if (word.find_first_not_of("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ") == string::npos) {
-                result += "word" + to_string(wordCount);
-                wordCount++;
+                result += "word" + to_string(wordCount++);
             }
             else {
                 result += word;
